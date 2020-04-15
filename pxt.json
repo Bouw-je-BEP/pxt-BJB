@@ -1,5 +1,5 @@
 {
-    "name": "pxt-Bouw je BEP",
+    "name": "pxt-BEP",
     "version": "0.9.2",
     "description": "Blocks for programming your BEP with the Kitronik I2C 16 servo expansion board.",
     "license": "Kitronik ; HeRo",
