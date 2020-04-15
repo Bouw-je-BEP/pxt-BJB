@@ -1,5 +1,5 @@
 /**
- * Blocks for driving the Kitronik I2C 16-Servo Driver Board
+ * Blocks for programming Bouw je BEP with the Kitronik I2C 16-Servo Driver Board 
  */
 //% weight=100 color=#F5992B icon="\uf11a" block="Bouw je BEP"
 namespace BEP {
@@ -25,8 +25,8 @@ namespace BEP {
         Omhoog_omlaag = 0x10,		// Omhoog of omlaag is pin 3
         Rechter_wenkbrauw = 0x14,		// Rechter wenkbrauw
         Linker_wenkbrauw = 0x18,		// Linkerwenkbrauw 
-        Rechter_ooglid = 0x1C,		// Rechter ooglid (Servo6)
-        Linker_ooglid = 0x20,		// Linker ooglied is pin 7 (Servo7)
+        //Rechter_ooglid = 0x1C,		// Rechter ooglid (Servo6)
+        //Linker_ooglid = 0x20,		// Linker ooglied is pin 7 (Servo7)
         //Servo8 = 0x24,
         //Servo9 = 0x28,
         //Servo10 = 0x2C,
@@ -135,19 +135,19 @@ namespace BEP {
 	let degrees2 = stand
 	
 	if (choice ==1){
-		degrees2=15
+		degrees2=50
 	}
 	else if(choice==2){
-		degrees2 = 52
+		degrees2 = 70
 	}
 	else if(choice==3){
 		degrees2 = 90
 	}
 	else if(choice ==4){
-		degrees2 = 126
+		degrees2 = 110
 	}
 	else if(choice == 5){
-		degrees2 = 163
+		degrees2 = 130
 	}
 	
 
