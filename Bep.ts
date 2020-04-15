@@ -1,7 +1,7 @@
 /**
- * Blocks for driving the Kitronik I2C 16-Servo Driver Board
+ * Blocks for driving the Kitronik I2C 16-Servo Driver Board for Bouw je BEP
  */
-//% weight=100 color=#F5992B icon="\uf1ec" block="Bouw je BEP"
+//% weight=100 color=#F5992B icon="\f5a4" block="Bouw je BEP"
 namespace BEP {
 
 //Some useful parameters. 
@@ -25,8 +25,8 @@ namespace BEP {
         Omhoog_omlaag = 0x10,		// Omhoog of omlaag is pin 3
         Rechter_wenkbrauw = 0x14,		// Rechter wenkbrauw
         Linker_wenkbrauw = 0x18,		// Linkerwenkbrauw 
-        Rechter_ooglid = 0x1C,		// Rechter ooglid (Servo6)
-        Linker_ooglid = 0x20,		// Linker ooglied is pin 7 (Servo7)
+        //Rechter_ooglid = 0x1C,		// Rechter ooglid (Servo6)
+        //Linker_ooglid = 0x20,		// Linker ooglied is pin 7 (Servo7)
         //Servo8 = 0x24,
         //Servo9 = 0x28,
         //Servo10 = 0x2C,
@@ -134,11 +134,11 @@ namespace BEP {
 	let choice = degrees
 	let degrees2 = degrees
 	switch(choice){
-		case 1: degrees2 = 15 ;
-		case 2: degrees2 = 52;
-		case 3: degrees2 = 89;
-		case 4: degrees2 = 126;
-		case 5: degrees2 = 163;
+		case 1: degrees2 = 50 ;
+		case 2: degrees2 = 70;
+		case 3: degrees2 = 90;
+		case 4: degrees2 = 110;
+		case 5: degrees2 = 130;
 	}
 	    
         let buf = pins.createBuffer(2)
